@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <style>
+    section {
+      padding: 60px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-xxl">
+      <a href="#intro" class="navbar-brand">
+        <i class="bi bi-journals"></i>
+        <span class="fw-bold text-secondary">
+          Bring Out Your Dead
+        </span>
+      </a>
+      <!--toggle button for mobile nav-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+        aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--navbar-links-->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#topics">About the book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviews">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Get in touch</a>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item ms-2 d-none d-md-inline">
+            <a class="btn btn-secondary" href="#pricing">Buy now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- main image and intro text-->
+  <section id="intro">
+    <div class="container-lg">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-5 text-center text-md-start">
+          <h1>
+            <div class="display-2">Black-belt</div>
+            <div class="display-5 text-muted">Your flirting skills</div>
+          </h1>
+          <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#pricing" class="btn btn-secondary btn-lg">Buy now</a>
+          <!--offcanvas-->
+          <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+            Explore other books
+          </a>
+        </div>
+        <div class="col-md-5 text-center">
+          <span class="tt" data-bs-placement="bottom" title="Bring Out Your Dead Book">
+            <img class="image-fluid"
+              src="https://www.subtraction.com/wp-content/uploads/2015/03/2015-03-23-random-book-covers-03.png"
+              alt="random-image">
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="bg-light mt-5">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>Pricing Plans</h2>
+        <p class="lead text-muted">Choose a pricing plan to suit you</p>
+      </div>
+
+      <div class="row my-5 align-items-center justify-content-center g-3">
+
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Starter Edition</h4>
+              <p class="lead card-subtitle">eBook download only</p>
+              <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet, ipsum dolor sit amet
+                consectetur adipisicing elit.</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-9 col-lg-4">
+          <div class="card border-primary shadow-sm border-2">
+            <div class="card-header text-center text-primary">Most Popular</div>
+            <div class="card-body text-center py-5">
+              <h4 class="card-title">Complete Edition</h4>
+              <p class="lead card-subtitle">eBook download & all updates</p>
+              <p class="display-4 my-4 text-primary fw-bold">$18.99</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet, ipsum dolor sit amet
+                consectetur adipisicing elit.</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Ultimate Edition</h4>
+              <p class="lead card-subtitle">Downloads, extras & updates</p>
+              <p class="display-5 my-4 text-primary fw-bold">$24.99</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet, ipsum dolor sit amet
+                consectetur adipisicing elit.</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="topics">
+    <div class="container-md">
+      <div class="text-center">
+        <h2>Inside the box..</h2>
+        <p class="lead text-muted">A quick glance at the topic you will learn</p>
+      </div>
+      <div class="row my-5 g-4 justify-content-around align-items-center">
+        <div class="col-6 col-lg-4">
+          <img src="https://i0.wp.com/sixcolors.com/wp-content/uploads/2016/06/newkindles-6c.jpg?ssl=1"
+            class="img-fluid" alt="ebook">
+        </div>
+        <!--accordion-->
+        <div class="col-lg-6">
+          <div class="accordion" id="chapters">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-1">
+                <button class="accordion-button  bg-light" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+                  Chapter 1 - Your First Love Story
+                </button>
+              </h2>
+              <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1"
+                data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid qui quis quos consectetur
+                    molestias, non ab nostrum aperiam alias dolores officia quaerat hic dolore. Aliquam minus quam hic
+                    enim animi dolor expedita aspernatur eius facilis corrupti?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, maxime! Magni, quae ea, nulla
+                    dolorum
+                    optio iste doloribus consequuntur laudantium nesciunt architecto voluptate ab. Autem accusamus
+                    maiores
+                    ex, officia reiciendis facere, minus vel optio repudiandae sapiente animi iste at fugit non,
+                    perspiciatis sunt aliquid porro dolor cum nobis possimus facilis?</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-2">
+                  <button class="accordion-button  bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#chapter-2" aria-expanded="true" aria-controls="chapter-2">
+                    Chapter 2 - The Wavery Time
+                  </button>
+                </h2>
+                <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2"
+                  data-bs-parent="#chapters">
+                  <div class="accordion-body">
+                    <p>Under the fading light of a golden sunset, they met by chance at the old bookstore on Main
+                      Street,
+                      reaching for the same worn copy of Pride and Prejudice. Their fingers brushed, and in that
+                      fleeting
+                      touch, something unspoken passed between them—curiosity, warmth, maybe even fate.
+                    </p>
+                    <p>Days turned into weeks filled with coffee dates, shared secrets, and long walks under starry
+                      skies.
+                      Love bloomed not with fireworks, but with quiet moments: the way he remembered her favorite tea,
+                      the
+                      way she smiled when he laughed. It wasn’t perfect, but it was real—and that made all the
+                      difference.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-3">
+                  <button class="accordion-button bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#chapter-3" aria-expanded="true" aria-controls="chapter-3">
+                    Chapter 3 - The Love Against All
+                  </button>
+                </h2>
+                <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3"
+                  data-bs-parent="#chapters">
+                  <div class="accordion-body">
+                    <p>The Love Against All was not born in ease or comfort, but in defiance of everything that tried to
+                      keep them apart. Surrounded by doubt, distance, and disapproval, their bond grew stronger with
+                      every challenge. It was the kind of love that whispered through locked doors and bloomed in
+                      shadows, unshaken by the world’s loudest no.
+                    </p>
+                    <p>They chose each other, again and again, even when it hurt, even when the future was unclear. In a
+                      world that told them to let go, they held on tighter—because some loves aren't meant to be easy;
+                      they’re meant to be unstoppable.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-4">
+                  <button class="accordion-button  bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#chapter-4" aria-expanded="true" aria-controls="chapter-4">
+                    Chapter 4 - Family Disloyality For Us
+                  </button>
+                </h2>
+                <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4"
+                  data-bs-parent="#chapters">
+                  <div class="accordion-body">
+                    <p>Family Disloyalty For Us was the wound that hurt deeper than any stranger’s betrayal. We expected
+                      love, support, and understanding, but instead found silence, judgment, and distance from those who
+                      should’ve stood closest.
+                    </p>
+                    <p>Family Disloyalty For Us was the wound that hurt deeper than any stranger’s betrayal. We expected
+                      love, support, and understanding, but instead found silence, judgment, and distance from those who
+                      should’ve stood closest.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-5">
+                  <button class="accordion-button  bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#chapter-5" aria-expanded="true" aria-controls="chapter-5">
+                    Chapter 5 - The Sweet Conclusion
+                  </button>
+                </h2>
+                <div id="chapter-5" class="accordion-collapse collapse" aria-labelledby="heading-5"
+                  data-bs-parent="#chapters">
+                  <div class="accordion-body">
+                    <p>The Sweet Conclusion wasn’t about grand endings or dramatic declarations—it was about quiet
+                      understanding and the peace that follows a storm. After everything—the trials, the heartbreaks,
+                      the moments that nearly broke them—they stood together, not because they had to, but because they
+                      still wanted to.
+                    </p>
+                    <p>Their journey wasn’t perfect, but it was theirs, marked by real love, hard-earned trust, and a
+                      future they were finally ready to face hand in hand. In the end, it wasn’t about how the story
+                      began or what tried to tear them apart. It was about how they chose to stay—and how love, in its
+                      purest form, endured.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="bg-light">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2><i class="bi bi-stars"></i>Book Reviews</h2>
+        <p class="lead">What readers have said about this book..</p>
+      </div>
+
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-8">
+          <div class="list-group">
+            <div class="list-group-item py-3">
+              <div class="pb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <h5 class="mb-1">A must buy for every love story reader.</h5>
+              <pc class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nemo, earum ea aliquam
+                et corrupti nesciunt rem inventore ipsam, accusamus explicabo modi ratione tempora dolorum debitis
+                laboriosam quasi nulla quibusdam tenetur laudantium odio eligendi dolore! Blanditiis iusto unde
+                assumenda dolores et, quaerat quod fuga beatae maiores magnam, aspernatur qui facere optio.
+                </p>
+                <small>Review by Suntali Maiya</small>
+            </div>
+            <div class="list-group-item py-3">
+              <div class="pb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <h5 class="mb-1">A book everyone should read</h5>
+              <pc class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nemo, earum ea aliquam
+                et corrupti nesciunt rem inventore ipsam, accusamus explicabo modi eligendi dolore! Blanditiis iusto
+                unde assumenda dolores et, quaerat quod fuga beatae maiores magnam, aspernatur qui facere optio.
+                </p>
+                <small>Review by Alex Bahadur</small>
+            </div>
+            <div class="list-group-item py-3">
+              <div class="pb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <h5 class="mb-1">A book full of deep love and suspense.</h5>
+              <pc class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nemo, earum ea aliquam
+                et corrupti nesciunt rem inventore ipsam, accusamus explicabo modi ratione tempora dolorum debitis
+                </p>
+                <small>Review by Kanchhi Bhunti</small>
+            </div>
+            <div class="list-group-item py-3">
+              <div class="pb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <h5 class="mb-1">A book that noone can hate.</h5>
+              <pc class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nemo, earum ea aliquam
+                et corrupti nesciunt rem inventore ipsam, accusamus explicabo modi ratione tempora dolorum debitis Lorem
+                ipsum dolor sit amet, consectetur adipisicing elit. Corrupti.
+                </p>
+                <small>Review by Kanchhi Bhunti</small>
+            </div>
+            <div class="list-group-item py-3">
+              <div class="pb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <h5 class="mb-1">A book full of deep love and romance.</h5>
+              <pc class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nemo, earum ea aliquam
+                et corrupti nesciunt rem inventore ipsam, accusamus explicabo modi ratione tempora dolorum debitis Lorem
+                ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing.
+                </p>
+                <small>Review by Kanchhi Bhunti</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>Get in Touch</h2>
+        <p class="lead">Questions to ask? FIll out the form to contact me directly.</p>
+      </div>
+
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-6">
+          <form method="POST" action="https://api.web3forms.com/submit">
+            <input type="hidden" name="access_key" value="deabba20-a770-4637-8858-6f54cd11d197">
+            <label for="email" class="form-label">Email Address: </label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-at-fill"></i>
+              </span>
+              <input type="email" name="email" class="form-control" id="email"
+                placeholder="e.g. rajeshhamal12@example.com">
+              <!--tooltip-->
+              <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Enter an email address we can reply to">
+                  <i class="bi bi-question-circle text-muted"></i>
+                </span>
+              </span>
+            </div>
+
+            <label for="name" class="form-label">Name: </label>
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-person"></i>
+              </span>
+              <input type="text" class="form-control" id="name" name="name" placeholder="e.g. Alex Livingstone">
+              <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Pretty self explantory really...">
+                  <i class="bi bi-question-circle text-muted"></i>
+                </span>
+              </span>
+            </div>
+
+            <label for="subject" class="form-label">What is your question about?</label>
+            <div class="input-group mb-3">
+              <span class="input-group-text">
+                <i class="bi bi-chat-right-dots-fill"></i>
+              </span>
+              <select class="form-select" id="subject">
+                <option value="pricing" selected>Pricing query</option>
+                <option value="content">Content query</option>
+                <option value="other">Other query</option>
+              </select>
+            </div>
+
+            <div class="form-floating my-3">
+              <textarea name="query" id="query" class="form-control bg-light" style="height: 120px;"></textarea>
+              <label for="query">Please! provide your query here.</label>
+            </div>
+            <div class="mb-4 text-center">
+              <button type="submit" class="btn btn-secondary">Submit</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--modal target-->
+
+  <section class="bg-light">
+    <div class="container">
+      <div class="text-center">
+        <h2>Stay in the loop</h2>
+        <p class="lead">Get the latest updates as they happen...</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <p class="text-muted my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque numquam at hic,
+            asperiores ex perspiciatis iusto quis aliquam velit tempore, deserunt soluta sunt mollitia laudantium
+            recusandae vitae adipisci incidunt minus, quasi eligendi libero tempora commodi qui! Accusamus quos error
+            saepe. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, delectus.</p>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+            Register for Updates
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--modal itself-->
+
+  <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-title">Get the latest updates</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quaerat eius assumenda tenetur,
+            corrupti earum excepturi facilis fugit possimus blanditiis animi odio consequatur, dicta minima incidunt?
+            Explicabo optio assumenda doloribus totam eveniet. Autem officiis ullam esse, a et quos dignissimos. </p>
+          <label for="model-mail" class="form-label">Your email address: </label>
+          <input type="email" class="form-control" id="modal-mail" placeholder="e.g. alex@example.com">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--offcanvas-->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title fs-4" id="sidebar-label">Other Preferred Books</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p class="lead fw-medium">These are some of the best books which are quite similar to 'Bring Out Your Dead'</p>
+      <ul class="lead fs-6">
+        <li>"The Ghost Map" by Steven Johnson – About the 1854 cholera outbreak in London; science, public health, and
+          urban life.</li>
+        <li>"Good Omens" by Neil Gaiman & Terry Pratchett – A comedic take on the apocalypse, with Death as a major
+          character.</li>
+        <li>"The Great Mortality" by John Kelly – A gripping, human-centered account of the Black Death in Europe.</li>
+        <li>"The Hitchhiker’s Guide to the Galaxy" by Douglas Adams – Surreal, cosmic-scale absurdity.</li>
+      </ul>
+      <!--dropdown-->
+      <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="book-dropdown"
+          data-bs-toggle="dropdown">Choose a book title</button>
+        <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+          <li><a href="#" class="dropdown-item">The Ghost Map</a></li>
+          <li><a href="#" class="dropdown-item">Good Omens</a></li>
+          <li><a href="#" class="dropdown-item">The Great Mortality</a></li>
+          <li><a href="#" class="dropdown-item">The Hitchhiker’s Guide to the Galaxy</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+  <script>
+    const tooltips = document.querySelectorAll('.tt')
+    tooltips.forEach(t => {
+      new bootstrap.Tooltip(t)
+    })
+  </script>
+
+</body>
+
+</html>
